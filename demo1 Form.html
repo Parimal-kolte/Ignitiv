@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first web page </title>
+    <style>
+      .container{
+        background-image: url(https://www.ignitiv.com/wp-content/uploads/2021/06/Digital-Transformation.jpg);
+      }
+      h1{
+        color:red;
+      }
+      .con1{
+        color: aqua;
+      }
+      .con2{
+        color: aqua;
+      }
+      .con3{
+        color: aqua;
+      }
+    </style>
+</head>
+<body>
+      <!--  -->
+    <div class="container">
+      <center>
+        <fieldset>
+         <h1>Registration Form</h1>
+        <br> <br>
+    
+          <form action="">
+            <!--  -->
+
+         <label for="pk" style="color: aqua;">Username &nbsp;&nbsp;::&nbsp;&nbsp; </label>  
+        <input type="text" id="pk" placeholder="Enter the username.."name="Username" pattern="[A-Za-z]{3}">
+            <br><br>
+
+        <label for="pass" style="color: aqua;"> <b> Password </b> &nbsp;&nbsp;::&nbsp;&nbsp; </label> 
+        <input type="password" placeholder = "Enter the password" id ="pass">
+           <br><br>
+       
+         <label for="Email" style="color: aqua;">Email &nbsp;&nbsp;::&nbsp;&nbsp; </label>
+         <input type="Email"name="email" placeholder="Enter your email id.... "id="Email" required >
+          <br><br>
+        <div class="con1">
+         <label for="" style="color: aqua;">Gender &nbsp;&nbsp;::&nbsp;&nbsp; </label>
+         <input type="radio" name="gender" value="male" >Male                     
+         <input type="radio" name="gender"value="female" >Female
+        </div>
+         <br><br>
+         <div class="con2">
+         <input type="checkbox" name="T and C" required>I Accept Terms & Condition
+        </div>
+         <br><br>
+         <div class="con3">
+         <input type="checkbox" name="technology"value="angular8"> Angular 8
+         <input type="checkbox" name="technology"value="htmlcss"> HTML Css
+        </div>
+         <br><br>
+       
+         <select name="Coarse"id="">
+
+           <option value="Developer"> Developer</option>
+           <option value="Automation"> Automation</option>
+           <option value="Devops"> Devops</option>
+           <option value="JSP"> JSP</option>
+         </select>
+         <br><br>
+
+         <textarea name="Comment" id="" cols="30" rows="15" placeholder="Inter the text"></textarea>
+         <br><br>
+
+         <input type="File"name="" id="">
+         <br><br>
+
+         <input type="submit">
+  </form>
+
+</fieldset>
+</center>
+</div>
+</body>
+</html>
+
+    
