@@ -1,0 +1,615 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  height: 800px;
+  background-image: url("https://www.ignitiv.com/wp-content/uploads/2020/09/slide-s.png"), url("https://www.ignitiv.com/wp-content/uploads/2020/09/slide-y.png"), url("https://www.ignitiv.com/wp-content/uploads/2021/06/Digital-Transformation.jpg");
+  background-position: -333px 160px, 1300px 150px, center center;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 650px, 650px, cover;
+  position: relative;
+}
+
+.header>h1 {
+  color: white;
+  float: left;
+  width: 43%;
+  font-size: 60px;
+  padding: 25px 40px;
+}
+
+.box1 {
+  color: white;
+  margin: 5px;
+  padding: 42px 0px;
+  overflow: hidden;
+  font-size: 25px;
+}
+
+.header>.box1>a {
+  padding: 22px;
+  font-size: 26px;
+  text-decoration: none;
+  color: white;
+}
+
+.box2 {
+  margin: 110px;
+}
+
+.box2>h2 {
+  font-size: 72px;
+  text-align: center;
+  padding: 125px 66px 0px;
+  color: white;
+}
+
+.box2>button {
+  width: 10%;
+  margin-left: 42%;
+  padding: 12px;
+  margin-top: 5%;
+  font-size: 20px;
+}
+
+/* second template  */
+.content p {
+  text-align: center;
+  font-size: 10px;
+  width: 80%;
+  margin: 0px auto;
+  font-size: 26px;
+}
+
+.content h1 {
+  /* font-size: 20px; */
+  text-align: center;
+  padding: 0px;
+  margin: 85px 80px;
+  font-size: 60px;
+}
+
+bold {
+  margin: 0px;
+  padding-bottom: 70px;
+  font-size: 34px;
+}
+
+/* third template  */
+.container3 {
+  display: flex;
+  flex-direction: row;
+  height: 450px;
+  width: 100%;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container3 h2 {
+  font-size: 38px;
+  text-align: center;
+  padding: 75px 66px 15px 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container3 p {
+  text-align: center;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 10px 20px
+}
+
+.container3 button {
+  text-align: center;
+  padding: 15px 40px;
+  margin: 20px 175px;
+}
+
+
+.custmexp {
+  background-color: purple;
+  color: white;
+}
+
+.ptnpltm {
+  background-color: rgb(28, 28, 28);
+  color: white;
+}
+
+.pwrinst {
+  background-color: rgb(3, 70, 187);
+  color: white;
+}
+
+
+.btt {
+  border-color: white;
+  background-color: transparent;
+  color: white;
+}
+
+/* forth template  */
+.block4 {
+  overflow: hidden;
+}
+
+.block4>.block4_1 {
+  background-color: #F4F4F4;
+  float: left;
+  width: 34%;
+  padding: 186px 134px;
+  display: block;
+}
+
+.block4>.block4_1>h2 {
+  font-size: 35px;
+  padding-top: 55px;
+  font-family: Poppins, sans-serif;
+  margin-top: -195px;
+}
+
+.block4>img {
+  width: 802px;
+  height: 633px;
+  float: left;
+}
+
+.block4>.block4_1>p {
+  font-size: 25px;
+  padding-bottom: 40px;
+  font-family: Poppins, sans-serif;
+  padding-top: 22px;
+  width: 80%;
+}
+
+.block4>.block4_1>button {
+  width: 60%;
+  margin: -30px 85px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.block4>.block4_1>button:hover {
+  color: white;
+  background-color: black;
+  transition: 1s;
+}
+
+
+.block5 {
+  overflow: hidden;
+}
+
+.block5>.block5_1 {
+  background-color: #F4F4F4;
+  float: left;
+  width: 675px;
+  padding: 205px 63px;
+  display: block;
+}
+
+.block5>.block5_1>h2 {
+  font-size: 35px;
+  padding-top: 55px;
+  font-family: Poppins, sans-serif;
+  margin-top: -195px;
+}
+
+.block5>img {
+  width: 821px;
+  height: 636px;
+  float: right;
+}
+
+.block5>.block5_1>p {
+  width: 77%;
+  font-size: 25px;
+  padding-bottom: 90px;
+  font-family: Poppins, sans-serif;
+  padding-top: 35px;
+}
+
+.block5>.block5_1>button {
+  padding: 10px;
+  width: 60%;
+  margin: -30px 85px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.block5>.block5_1>button:hover {
+  color: white;
+  background-color: black;
+  transition: 1s;
+}
+
+.block6 {
+  overflow: hidden;
+}
+
+.block6>.block6_1 {
+  background-color: #F4F4F4;
+  float: left;
+  width: 566px;
+  padding: 108px 127px;
+  display: block;
+}
+
+.block6>.block6_1>h2 {
+  font-size: 30px;
+  padding: 17px;
+  font-family: Poppins, sans-serif;
+}
+
+.block6>img {
+  width: 802px;
+  height: 450px;
+  float: left;
+}
+
+.block6>.block6_1>p {
+  font-size: 18px;
+  padding-bottom: 25px;
+  font-family: Poppins, sans-serif;
+}
+
+.block6>.block6_1>button {
+  padding: 10px;
+  width: 66%;
+  margin: 0px 75px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.block6>.block6_1>button:hover {
+  color: white;
+  background-color: black;
+  transition: 1s;
+}
+
+.block7 {
+  overflow: hidden;
+}
+
+.block7>.block7_1 {
+  background-color: #F4F4F4;
+  float: left;
+  width: 529px;
+  padding: 107px 136px;
+  display: block;
+}
+
+.block7>.block7_1>h2 {
+  font-size: 31px;
+  padding: 20px;
+  font-family: Poppins, sans-serif;
+}
+
+.block7>img {
+  width: 821px;
+  height: 511px;
+  float: right;
+}
+
+.block7>.block7_1>p {
+  font-size: 18px;
+  padding-bottom: 25px;
+  font-family: Poppins, sans-serif;
+}
+
+.block7>.block7_1>button {
+  padding: 10px;
+  width: 66%;
+  margin: 0px 75px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.block7>.block7_1>button:hover {
+  color: white;
+  background-color: black;
+  transition: 1s;
+}
+
+.block8 {
+  overflow: hidden;
+}
+
+.block8>.block8_1 {
+  background-color: #F4F4F4;
+  float: left;
+  width: 454px;
+  padding: 201px 183px;
+  display: block;
+  height: 256px;
+}
+
+.block8>.block8_1>h2 {
+  font-size: 30px;
+  padding: 18px;
+  font-family: Poppins, sans-serif;
+}
+
+.block8>img {
+  width: 802px;
+  height: 658px;
+  float: left;
+}
+
+.block8>.block8_1>p {
+  font-size: 18px;
+  padding-bottom: 25px;
+  font-family: Poppins, sans-serif;
+}
+
+.block8>.block8_1>button {
+  padding: 10px;
+  width: 66%;
+  margin: 0px 75px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.block8>.block8_1>button:hover {
+  color: white;
+  background-color: black;
+  transition: 1s;
+}
+
+/* red template  */
+.block9 {
+  background-color: red;
+  padding: 14%;
+}
+
+.block9 ul {
+  overflow: hidden;
+}
+
+.block9 ul li {
+  float: left;
+  width: 33%;
+}
+
+/* last template  */
+.lastpart {
+  background-image: url(https://www.ignitiv.com/wp-content/uploads/2020/08/Footer.jpg);
+  background-color: #222222;
+  height: 500px;
+  line-height: 30px;
+  width: 100%;
+  color: white;
+  display: flex;
+}
+
+.boxx1 p {
+  font-size: 18px;
+  padding: 17px 46px;
+}
+
+.boxx1 h3 {
+  margin-left: 46px;
+}
+
+.boxx1 a {
+  margin-left: 46px;
+  text-decoration: none;
+}
+
+
+.boxx2 {
+  margin-left: 15px;
+}
+
+.linking ul li {
+  font-size: 15px;
+  color: white;
+  margin-top: 10px;
+  list-style: none;
+}
+
+.linking ul li a {
+  color: white;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.boxx1,
+.boxx2,
+.boxx3 {
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.boxx1,
+.boxx2,
+.boxx3,
+.boxx4 {
+  width: 25%;
+  margin-top: 90px;
+
+}
+
+.boxx3 {
+  margin-bottom: 19px;
+
+}
+
+.boxx3 a {
+  color: white;
+  font-size: 18px;
+  line-height: 41px;
+  font-weight: lighter;
+  text-decoration: #080822;
+}
+
+.boxx4 {
+  margin-left: 53px;
+}
+
+.boxx4 h3 {
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+.icont i {
+  margin-right: 15px;
+
+
+}
+
+
+.icont {
+  font-size: 45px;
+  margin: -5px;
+  padding: 31px 0px;
+  text-decoration: none;
+}
+
+.copyright {
+  height: 100px;
+  background-color: #080822;
+  color: white;
+  padding: 47px;
+  text-align: center;
+  width: 100%;
+  font-size: 16px;
+}
+
+.ro {
+  margin-top: 50px;
+  display: inline-block;
+  position: relative;
+  padding: 5px 35px 5px 0px;
+  font-size: 30px;
+}
+
+.ro a {
+  color: white;
+  text-decoration: none;
+}
+
+.ro1 {
+  position: absolute;
+  background-color: black;
+  color: #F4F4F4;
+  height: 200px;
+  width: 250px;
+  z-index: 1;
+  display: none;
+}
+
+.ro1 a {
+  padding: 5px 18px;
+  margin-left: 26px;
+  font-size: 20px;
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+
+.ro1 a:hover {
+  text-decoration: underline;
+}
+
+.ro:hover .ro1 {
+  display: block;
+}
+
+/* .ro2 {
+  display: inline-block;
+  position: relative;
+  padding: 5px 39px 5px 0px;
+  font-size: 30px;
+}
+
+.ro3 {
+  position: absolute;
+  background-color: black;
+  color: #F4F4F4;
+  height: 200px;
+  width: 250px;
+  z-index: 1;
+  display: none;
+}
+
+.ro3 a {
+  padding: 0px, 18px;
+  margin-left: 26px;
+  font-size: 12px;
+  text-decoration: none;
+  display: block;
+}
+
+ .ro3 a:hover {
+  text-decoration: underline;
+}
+
+.ro2:hover .ro3 {
+  display: block;
+}
+
+.ro4 {
+  display: inline-block;
+  position: relative;
+  padding: 5px 39px 5px 5px;
+  font-size: 30px;
+}
+
+.ro5 {
+  display: inline-block;
+  position: relative;
+  padding: 5px 39px 5px 5px;
+  font-size: 30px;
+}
+
+.ro6 {
+  display: inline-block;
+  position: relative;
+  padding: 5px 39px 5px 5px;
+  font-size: 30px;
+}
+
+.ro7 {
+  position: absolute;
+  background-color: black;
+  color: #F4F4F4;
+  height: 200px;
+  width: 250px;
+  z-index: 1;
+  display: none;
+}
+
+.ro7 a {
+  padding: 0px, 18px;
+  margin-left: 26px;
+  font-size: 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.ro7 a:hover {
+  text-decoration: underline;
+}
+
+.ro6:hover .ro7 {
+  display: block;
+}
+
+.ro8 {
+  display: inline-block;
+  position: relative;
+  padding: 5px 39px 5px 5px;
+  font-size: 30px;
+} */
+
+/* .mearge {
+  margin: 0px;
+  padding: 2px;
+  font-size: 22px;
+}   */
